@@ -1,22 +1,26 @@
 body {
+    margin: 0;
     font-family: Georgia, sans-serif;
-}
-
-img {
-    width: 40%;
-    height: auto;
-    display: inline-block;
 }
 
 h1 {
     text-align: center;
 }
 
+h4 {
+    border-top: 2px solid gray;
+    padding-top: 20px;
+}
+
+figure {
+    margin-bottom: 35px;
+}
+
 #contactme {
-    border: 1px solid gray;
-    padding: 4px;
-    margin: auto;
-    display: inline-block;
+    border: 2px solid gray;
+    width: 944px;
+    margin-left: 40px;
+    padding: 5px 8px;
 }
 
 .disclaimer {
@@ -24,8 +28,9 @@ h1 {
 }
 
 button {
+    border-width: 2px;
     border-radius: 5px;
-    font-size: 16px;
     text-align: center;
+    padding: 3px 15px;
     display: block;
 }
