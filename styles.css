@@ -1,0 +1,31 @@
+body {
+    font-family: Georgia, sans-serif;
+}
+
+img {
+    width: 40%;
+    height: auto;
+    display: inline-block;
+}
+
+h1 {
+    text-align: center;
+}
+
+#contactme {
+    border: 1px solid gray;
+    padding: 4px;
+    margin: auto;
+    display: inline-block;
+}
+
+.disclaimer {
+    font-size: 13px;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+}
