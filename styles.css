@@ -12,6 +12,12 @@ h4 {
     padding-top: 20px;
 }
 
+.webdev {
+    display: inline-block;
+    width: 50%;
+    height: auto;
+}
+
 figure {
     margin-bottom: 35px;
 }
