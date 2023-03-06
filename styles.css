@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    padding-left: 80px;
+}
+
+.content1, .content2, .r-column {
+    width: 80%;
+    margin-left: 80px;
+}
+
+.form-content {
+    width: 285px;
+    border: 1px dashed gray;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+hr {
+    margin-top: 8px;
+}
+
+label {
+    margin-right: 20px;
+}
+
+input {
+    width: 254px;
+    display: block;
+}
+
+button {
+    margin-top: 8px;
+    width: 80px;
+}
