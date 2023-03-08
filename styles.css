@@ -1,44 +1,48 @@
-body {
+* {
     margin: 0;
+    padding: 0;
     font-family: "Trebuchet MS", sans-serif;
 }
 
 a {
     text-decoration: none;
-    color: black;
+    color: #000;
 }
-
-img {
-    padding-left: 80px;
-}
-
-.content1, .content2, .r-column {
-    width: 80%;
-    margin-left: 80px;
-}
-
-.form-content {
-    width: 285px;
-    border: 1px dashed gray;
-    margin-left: 80px;
-    margin-bottom: 50px;
+ /* home */
+ul {
+    display: flex;
     padding: 30px;
+    gap: 10px;
 }
 
-hr {
-    margin-top: 8px;
+.side-section {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 8px;
 }
 
-label {
-    margin-right: 20px;
+div {
+    padding: 80px;
+    width: 40%;
 }
 
-input {
-    width: 254px;
-    display: block;
+.content1 {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+/* home */
+
+/* contact */
+
+.content2 {
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    gap: 10px;
 }
 
-button {
-    margin-top: 8px;
-    width: 80px;
-}
+/* contact */
