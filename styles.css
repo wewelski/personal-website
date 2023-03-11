@@ -8,13 +8,12 @@
 
 body {
     background-color: #fffcf2;
-    font-size: 1rem;
 }
 
-nav {
-    display: flex;
+header {
     background-color: #ccc5b9;
-    margin-bottom: 80px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -34,8 +33,7 @@ a {
 .sect2-content {
     margin: 30px 0;
     padding: 30px;
-    flex-direction: column;
-    background-color: rgb(204, 197, 185);
+    background-color: #ccc5b9;
     width: 20%;
     border-radius: 1em;
 }
