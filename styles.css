@@ -1,63 +1,62 @@
 * {
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
+    font-family: "Trebuchet MS", Arial, sans-serif;
     list-style-type: none;
 }
 
 body {
-    margin: 0;
-    font-family: "Trebuchet MS", sans-serif;
+    background-color: #fffcf2;
+    font-size: 1rem;
 }
 
 nav {
-    background-color: #ffc206;
     display: flex;
-}
-
-li {
-    padding: 3px 0;
+    background-color: #ccc5b9;
+    margin-bottom: 80px;
 }
 
 a {
-    text-decoration: none;
     color: #000;
+    text-decoration: none;
 }
 
-/* start of main*/
-.content1 {
+.content1,
+.content2 {
     display: flex;
-    width: 75%;
     margin: 0 auto;
-    padding: 30px;
-    gap: 50px;
     justify-content: center;
+
 }
 
-.sect1-content {
-    width: 24%;
-    padding: 10px 12px;
-    background-color: #E5E5E5;
-    border-radius: 1.5em
+.sect1-content,
+.sect2-content {
+    margin: 30px 0;
+    padding: 30px;
+    flex-direction: column;
+    background-color: rgb(204, 197, 185);
+    width: 20%;
+    border-radius: 1em;
 }
-
 
 .sq-img {
-    border-radius: 1.5em;
-    width: 200px;
-    transition: border-radius .5s, width .5s;
+    padding: 10px 20px;
+    width: 250px;
+    transition: .5s;
 }
 
 .sq-img:hover {
+    width: 280px;
     border-radius: 50%;
-    width: 250px;
 }
 
-.content2 {
-    width: 50%;
-    margin: 0 auto;
+.kodego2 {
     padding: 10px 20px;
-    background-color: #E5E5E5;
-    border-radius: 1.5em;
+    width: 320px;
+    transition: 3s;
 }
-/* end of main */
 
-/* contact page */
+.kodego2:hover {
+    transform: rotateY(360deg);
+}
