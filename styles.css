@@ -1,60 +1,52 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: "Trebuchet MS", Arial, sans-serif;
-    list-style-type: none;
 }
 
 body {
+    /* font-family: "Courier New", sans-serif; */
     background-color: #fffcf2;
+    width: 50%;
+    margin: 0 auto;
 }
 
 header {
-    background-color: #ccc5b9;
-    height: 150px;
-    margin-bottom: 20px;
+    font-family: "Courier New", sans-serif;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 20px;
+}
+
+h1 {
+    /* border: 1px dashed #000; */
+    padding: 2rem 0;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 1.7rem 0;
+}
+
+p {
+    /* border: 1px dashed #000; */
+    text-align: center;
+    width: 250px;
+    padding: 1.5rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+    padding-right: 3rem;
 }
 
 a {
-    color: #000;
-    text-decoration: none;
+    color: inherit;
 }
 
-.content1,
-.content2 {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-
-}
-
-.sect1-content,
-.sect2-content {
-    margin: 30px 0;
-    padding: 30px;
-    background-color: #ccc5b9;
-    width: 20%;
-    border-radius: 1em;
-}
-
-.sq-img {
-    padding: 10px 20px;
-    width: 250px;
-    transition: .5s;
-}
-
-.sq-img:hover {
-    width: 280px;
-    border-radius: 50%;
-}
-
-.kodego2 {
-    padding: 10px 20px;
-    width: 320px;
-    transition: 3s;
-}
-
-.kodego2:hover {
-    transform: rotateY(360deg);
+a:hover {
+    color: #ff9f1c;
 }
