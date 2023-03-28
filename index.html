@@ -10,44 +10,57 @@
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 
-<style>
-    .has-bg-img {
-        background: url('https://images.unsplash.com/photo-1493946947703-a0e68b050bee?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-        background-size: cover;
-    }
-</style>
-
 <body>
 
-    <section class="hero is-fullheight has-bg-img">
-        <nav class="hero-head navbar is-transparent">
-            <a href="#" class="navbar-brand p-2">
-                <img src="images/name-logo00.png" width="80">
-            </a>
-            <div class="navbar-menu navbar-end">
-                <a href="#" class="navbar-item has-text-white">About</a>
-                <a href="#" class="navbar-item has-text-white">Projects</a>
-                <a href="#" class="navbar-item has-text-white">Contact</a>
+    <section class="hero has-background-white-bis is-fullheight">
+        <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+          <header class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <a class="navbar-item">
+                  <span class="title is-3">&lcub;.reuel&rcub;</span>
+                </a>
+                <span class="navbar-burger" data-target="navbarMenuHeroC">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </div>
+              <div id="navbarMenuHeroC" class="navbar-menu">
+                <div class="navbar-end">
+                  <a class="navbar-item">
+                    About
+                  </a>
+                  <a class="navbar-item">
+                    Projects
+                  </a>
+                  <span class="navbar-item">
+                    <a href="https://drive.google.com/file/d/1mWn21iOoJLDkl9k-mZ0SxdqKxI7UgIU3/view?usp=sharing" target="_blank" class="button is-warning is-inverted">
+                      <span>Resume</span>
+                    </a>
+                  </span>
+                </div>
+              </div>
             </div>
-        </nav>
-        <div class="hero-body ">
-            <article class="title has-text-white">
-                <h1>I'm Roowell Fernandez</h1>
-                <p class="subtitle has-text-white">and I'm web developer</p>
-            </article>
+          </header>
+        </div>
+      
+        <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container has-text-centered">
+            <p class="title is-1">
+              Hello!
+            </p>
+            <p class="subtitle is-3">
+              I'm <strong class="has-text-success">Roowell Fernandez</strong> and I am a fullstack web developer.
+            </p>
+          </div>
         </div>
     </section>
+    
+    <section>
 
-    <section class="block">
-        <div class="columns p-3">
-            <div class="column is-3">
-                <h2 class="title">About Me</h2>
-                <p class="subtitle">I'v always been fascinated with software development and how things are being presented on different websites. My curiousity brought me to KodeGO, which help me get equipped with the skills and tools I need to be a fullstack web developer. </p>
-            </div>
-            <div class="column is-3">
-                <img src="images/dp-300x300.png" width="200">
-            </div>
-        </div>
     </section>
 
 </body>
