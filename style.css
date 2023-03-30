@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: system-ui;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar-top {
@@ -37,15 +37,55 @@ a:hover {
 
 .hero-text {
     font-size: 1.5rem;
-    padding: 200px 2rem;
+    padding: 275px 2rem;
 }
 
 .name {
     color: #f77f00;
+    font-size: 3rem;
 }
 
 @media (max-width: 420px) {
     .links {
         gap: 1rem;
     }
+
+    .hero-text {
+        font-size: 1rem;
+    }
+
+    .about-me {
+        flex-direction: column;
+    }
+
+    .about-me img {
+        flex-grow: 1;
+        width: 200px;
+    }
+}
+
+@media (max-width: 810px) {
+    .about-me img {
+        width: 250px;
+    }
+    .about-cont {
+        font-size: 1rem;
+    }
+}
+
+.about-me {
+    padding-top: 3rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+
+.about-me img {
+    border-radius: 20rem;
+    padding: 2rem;
+}
+
+.about-cont {
+    padding: 2rem;
 }
