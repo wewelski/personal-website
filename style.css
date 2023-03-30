@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+.navbar-top {
+    display: flex;
+    padding: .5rem;
+    gap: 3rem;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #f77f00;
+}
+
+.hero {
+    background-color: #161616;
+    background-image: url("images/jared-brashier-6WPcf5D1XdA-unsplash.jpg");
+    background-size: cover;
+    color: #fff;
+    height: 100vh;
+}
+
+.hero-text {
+    font-size: 1.5rem;
+    padding: 200px 2rem;
+}
+
+.name {
+    color: #f77f00;
+}
+
+@media (max-width: 420px) {
+    .links {
+        gap: 1rem;
+    }
+}
