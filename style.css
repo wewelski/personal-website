@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-top {
@@ -41,9 +42,15 @@ a:hover {
     padding: 275px 2rem;
 }
 
+.pages {
+    margin-left: 22rem;
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
 .name {
-    color: #f77f00;
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 
 @media (max-width: 420px) {
@@ -53,6 +60,11 @@ a:hover {
 
     .hero-text {
         font-size: 1rem;
+    }
+
+    .pages {
+        margin: 0;
+        justify-content: center;
     }
 
     .about-me {
@@ -66,6 +78,13 @@ a:hover {
 }
 
 @media (max-width: 810px) {
+
+    .pages {
+        margin: 0;
+        padding-left: 0;
+        justify-content: flex-start;
+    }
+
     .about-me img {
         width: 250px;
     }
