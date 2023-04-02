@@ -85,7 +85,7 @@ a:hover {
         flex-direction: column;
     }
 
-    .projects-container .card1 p {
+    .projects-container p {
         display: none;
     }
 }
